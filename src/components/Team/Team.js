@@ -139,6 +139,21 @@ const teamMembers = [
     link_type: "LinkedIn",
     link_url: "https://www.linkedin.com/in/jacob-munene-4561a4153/",
   },
+  
+  {
+    first_name: "Yasith",
+    last_name: "Ellewela",
+    position: "Software Developer",
+    username: null,
+    img_url: "https://i.imgur.com/Mln4JMc.jpg",
+    description_1:
+      "Yasith is currently studying Mechatronics Engineering at University of Waterloo",
+    description_2:
+      "He loves playing volleyball and socializing!",
+    link_type: "LinkedIn",
+    link_url: "https://www.linkedin.com/in/yasith-ellewela-573b781b5/",
+  },
+  
 ];
 
 function TeamMemberCard({ teamMember, showLinkedin = true }) {
